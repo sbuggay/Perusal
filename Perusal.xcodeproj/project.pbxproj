@@ -15,13 +15,19 @@
 		07C9037418A0059800BDF370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9037318A0059800BDF370 /* AppDelegate.m */; };
 		07C9037718A0059800BDF370 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C9037518A0059800BDF370 /* Main_iPhone.storyboard */; };
 		07C9037A18A0059800BDF370 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C9037818A0059800BDF370 /* Main_iPad.storyboard */; };
-		07C9037D18A0059800BDF370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9037C18A0059800BDF370 /* ViewController.m */; };
 		07C9037F18A0059800BDF370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C9037E18A0059800BDF370 /* Images.xcassets */; };
 		07C9038618A0059800BDF370 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C9038518A0059800BDF370 /* XCTest.framework */; };
 		07C9038718A0059800BDF370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C9036318A0059800BDF370 /* Foundation.framework */; };
 		07C9038818A0059800BDF370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C9036718A0059800BDF370 /* UIKit.framework */; };
 		07C9039018A0059800BDF370 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C9038E18A0059800BDF370 /* InfoPlist.strings */; };
 		07C9039218A0059800BDF370 /* PerusalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9039118A0059800BDF370 /* PerusalTests.m */; };
+		07C9039D18A00D2F00BDF370 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9039C18A00D2F00BDF370 /* MainTableViewController.m */; };
+		07C903A018A058D300BDF370 /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9039F18A058D300BDF370 /* Link.m */; };
+		07C903A318A05D6400BDF370 /* WebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C903A218A05D6400BDF370 /* WebKitViewController.m */; };
+		07C903A718A074D300BDF370 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C903A618A074D300BDF370 /* icon.png */; };
+		07C903A918A0AF2C00BDF370 /* nsfw.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C903A818A0AF2C00BDF370 /* nsfw.png */; };
+		07C903AB18A3282100BDF370 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C903AA18A3282100BDF370 /* Default-568h@2x.png */; };
+		07D6194318A481E200F9B805 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D6194218A481E200F9B805 /* iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,22 @@
 		07C9037318A0059800BDF370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07C9037618A0059800BDF370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		07C9037918A0059800BDF370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		07C9037B18A0059800BDF370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07C9037C18A0059800BDF370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07C9037E18A0059800BDF370 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07C9038418A0059800BDF370 /* PerusalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerusalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C9038518A0059800BDF370 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07C9038D18A0059800BDF370 /* PerusalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerusalTests-Info.plist"; sourceTree = "<group>"; };
 		07C9038F18A0059800BDF370 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C9039118A0059800BDF370 /* PerusalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerusalTests.m; sourceTree = "<group>"; };
+		07C9039B18A00D2F00BDF370 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		07C9039C18A00D2F00BDF370 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		07C9039E18A058D300BDF370 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		07C9039F18A058D300BDF370 /* Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		07C903A118A05D6400BDF370 /* WebKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebKitViewController.h; sourceTree = "<group>"; };
+		07C903A218A05D6400BDF370 /* WebKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebKitViewController.m; sourceTree = "<group>"; };
+		07C903A618A074D300BDF370 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		07C903A818A0AF2C00BDF370 /* nsfw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nsfw.png; sourceTree = "<group>"; };
+		07C903AA18A3282100BDF370 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Perusal/Default-568h@2x.png"; sourceTree = "<group>"; };
+		07D6194218A481E200F9B805 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = Perusal/iphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,8 @@
 		07C9035718A0059800BDF370 = {
 			isa = PBXGroup;
 			children = (
+				07D6194218A481E200F9B805 /* iphone.png */,
+				07C903AA18A3282100BDF370 /* Default-568h@2x.png */,
 				07C9036918A0059800BDF370 /* Perusal */,
 				07C9038B18A0059800BDF370 /* PerusalTests */,
 				07C9036218A0059800BDF370 /* Frameworks */,
@@ -114,12 +130,18 @@
 		07C9036918A0059800BDF370 /* Perusal */ = {
 			isa = PBXGroup;
 			children = (
+				07C903A818A0AF2C00BDF370 /* nsfw.png */,
+				07C903A618A074D300BDF370 /* icon.png */,
 				07C9037218A0059800BDF370 /* AppDelegate.h */,
 				07C9037318A0059800BDF370 /* AppDelegate.m */,
 				07C9037518A0059800BDF370 /* Main_iPhone.storyboard */,
 				07C9037818A0059800BDF370 /* Main_iPad.storyboard */,
-				07C9037B18A0059800BDF370 /* ViewController.h */,
-				07C9037C18A0059800BDF370 /* ViewController.m */,
+				07C9039B18A00D2F00BDF370 /* MainTableViewController.h */,
+				07C9039C18A00D2F00BDF370 /* MainTableViewController.m */,
+				07C903A118A05D6400BDF370 /* WebKitViewController.h */,
+				07C903A218A05D6400BDF370 /* WebKitViewController.m */,
+				07C9039E18A058D300BDF370 /* Link.h */,
+				07C9039F18A058D300BDF370 /* Link.m */,
 				07C9037E18A0059800BDF370 /* Images.xcassets */,
 				07C9036A18A0059800BDF370 /* Supporting Files */,
 			);
@@ -231,10 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D6194318A481E200F9B805 /* iphone.png in Resources */,
 				07C9037A18A0059800BDF370 /* Main_iPad.storyboard in Resources */,
+				07C903A718A074D300BDF370 /* icon.png in Resources */,
 				07C9037F18A0059800BDF370 /* Images.xcassets in Resources */,
 				07C9037718A0059800BDF370 /* Main_iPhone.storyboard in Resources */,
 				07C9036E18A0059800BDF370 /* InfoPlist.strings in Resources */,
+				07C903AB18A3282100BDF370 /* Default-568h@2x.png in Resources */,
+				07C903A918A0AF2C00BDF370 /* nsfw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C9037D18A0059800BDF370 /* ViewController.m in Sources */,
+				07C9039D18A00D2F00BDF370 /* MainTableViewController.m in Sources */,
 				07C9037418A0059800BDF370 /* AppDelegate.m in Sources */,
+				07C903A318A05D6400BDF370 /* WebKitViewController.m in Sources */,
 				07C9037018A0059800BDF370 /* main.m in Sources */,
+				07C903A018A058D300BDF370 /* Link.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +424,7 @@
 				GCC_PREFIX_HEADER = "Perusal/Perusal-Prefix.pch";
 				INFOPLIST_FILE = "Perusal/Perusal-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +438,7 @@
 				GCC_PREFIX_HEADER = "Perusal/Perusal-Prefix.pch";
 				INFOPLIST_FILE = "Perusal/Perusal-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +504,7 @@
 				07C9039718A0059800BDF370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C9039818A0059800BDF370 /* Build configuration list for PBXNativeTarget "PerusalTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +513,7 @@
 				07C9039A18A0059800BDF370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
