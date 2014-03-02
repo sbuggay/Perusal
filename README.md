@@ -1,5 +1,6 @@
 Perusal
 =======
+![alt tag](https://raw.github.com/sbuggay/Perusal/master/perusal.png)
 A simple Reddit client for iOS
 -------
 All this does currently is parse [reddit.com/r/all.json](reddit.com/r/all.json) and propagates a UITableView with relavent information from that JSON.
