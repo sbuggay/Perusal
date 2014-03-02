@@ -29,6 +29,7 @@
 
     
     _links = [[NSMutableArray alloc] init];
+    _nsfw = NO;
     [self refresh:nil];
     UIBarButtonItem *button = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh:)];
     self.navigationItem.rightBarButtonItem = button;
@@ -73,6 +74,7 @@
     
     for(NSDictionary * dict in posts)
     {
+        bool nsfw = NO;
         NSMutableDictionary *postdata = [dict valueForKey:@"data"];
         Link *link = [[Link alloc] init];
         link.title = [postdata valueForKey:@"title"];
@@ -94,6 +96,7 @@
         
         if ([[postdata valueForKey:@"over_18"] boolValue] == YES) {
             link.thumbnail = [UIImage imageNamed:@"nsfw"];
+            nsfw = YES;
         }
         
         link.url = [postdata valueForKey:@"url"];
@@ -104,7 +107,7 @@
                 contained = YES;
             }
         }
-        if (!contained)
+        if (!contained && !nsfw)
             [_links addObject: link];
     }
     [self.tableView reloadData];

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>554F611E-9CBD-44E2-81BE-AF2D5A674252</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Perusal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>026FC930-F52F-48C1-B6F6-65697B8E1962</key>
+		<string>https://github.com/sbuggay/Perusal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Perusal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>026FC930-F52F-48C1-B6F6-65697B8E1962</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sbuggay/Perusal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>026FC930-F52F-48C1-B6F6-65697B8E1962</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>026FC930-F52F-48C1-B6F6-65697B8E1962</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Perusal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

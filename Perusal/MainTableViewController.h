@@ -13,6 +13,7 @@
 
 @property (nonatomic, copy) NSString *subreddit;
 @property (nonatomic, strong) NSMutableArray *links;
+@property bool nsfw;
 
 - (IBAction)loadNextPage:(id)sender;
 
